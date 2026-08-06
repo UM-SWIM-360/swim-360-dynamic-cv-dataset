@@ -1,0 +1,19 @@
+{
+  "swimmer": "P004",
+  "camera_angle": "Under Water",
+  "stroke": "freestyle",
+  "phase": "turn",
+  "source_video": "DIVE_P004_FREE_UNDERWATER_20250612_001_TURN",
+  "frame_index": 620,
+  "image": {
+    "id": 621,
+    "width": 3840,
+    "height": 2160,
+    "file_name": "DIVE_P004_FREE_UNDERWATER_20250612_001_TURN/frame_000620.png",
+    "license": 0,
+    "flickr_url": "",
+    "coco_url": "",
+    "date_captured": 0
+  },
+  "annotations": []
+}
