@@ -1,7 +1,7 @@
 # swim-360-dynamic-cv-dataset
 
 COCO-17 keypoint annotations for swimmer pose estimation, captured from a
-dynamic lane camera setup (phased swim, segmented strokes), above and below
+dynamic lane camera setup (phased swim, non-segmented strokes), above and below
 water.
 
 ## This is a two-part dataset:
@@ -41,6 +41,7 @@ ready to point standard COCO training pipelines at directly.
 - **Swimmer ID**: `P<number>` (e.g. `P007`)
 - **Camera angle**: `Above Water` / `Under Water`
 - **Stroke**: `freestyle`, `backstroke`, `breaststroke`, `butterfly`
+- **Swim Segment**: `START`, `SWIM1`, `TURN`, `SWIM2`,`FINISH`
 - **Keypoints**: standard COCO-17 layout (nose, eyes, ears, shoulders,
   elbows, wrists, hips, knees, ankles)
 
