@@ -36,6 +36,12 @@ canonical published train/valid/test split), so step 2 is all you need.
 This produces `dataset/{train,valid,test}/{images/, _annotations.coco.json}`,
 ready to point standard COCO training pipelines at directly.
 
+## Using run_pipeleine.py
+Instead of running scripts individually, 'run_pipeline.py' runs all the necessary scripts in order to generate the COCO dataset from the [Hugging Face](https://huggingface.co/datasets/UM-SWIM-360/swim-360-dynamic-cv-dataset) blurred images.
+```bash
+python run_pipeline.py
+```
+
 ## Dataset conventions
 
 - **Swimmer ID**: `P<number>` (e.g. `P007`)
