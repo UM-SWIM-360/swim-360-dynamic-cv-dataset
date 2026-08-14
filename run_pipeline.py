@@ -71,10 +71,10 @@ if __name__ == "__main__":
     # Edit these to match your real paths/flags.
 
     run_step("fetch_from_hf.py", [
-            "--repo_id", "UM-SWIM-360/swim-360-dynamic-cv-dataset",
-            "--local_dir", "data_dynamic_hf",
-        ])
-    
+        "--repo_id", "UM-SWIM-360/swim-360-dynamic-cv-dataset",
+        "--local_dir", "data_dynamic_hf",
+    ])
+
     run_step("generate_config.py", [
         "--registry_root", ".",
         "--output", "dataset_config.yaml",
@@ -86,7 +86,7 @@ if __name__ == "__main__":
         "--registry_root", ".",
         "--dataset_config", "dataset_config.yaml",
         "--output_dir", "dataset",
-        "--images_root", "data_dynamic_hf\blurred_images",
+        "--images_root", "data_dynamic_hf\\blurred_images",  # where the images are stored
     ])
 
     
