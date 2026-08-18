@@ -118,5 +118,59 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "15-19",
+    "survey_timestamp": "2025-07-03T13:55:49.517000",
+    "date_of_birth": "2005-09-16T00:00:00",
+    "gender": "Male",
+    "height_cm": 176.0,
+    "weight_kg": 60.0,
+    "arm_span_cm": 179.0,
+    "shoulder_width_cm": 45.0,
+    "hand_size_cm": 20.0,
+    "foot_size_cm": 25.0,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "More than 6 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "breaststroke",
+    "secondary_strokes": [
+      "freestyle"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)"
+    ],
+    "hours_per_week": {
+      "raw": "3",
+      "parsed": 3.0
+    },
+    "sessions_per_week": {
+      "raw": "3",
+      "parsed": 3.0
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Strength Training"
+    ],
+    "coach_duration": "5 years",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": false,
+    "injury_areas": [],
+    "current_pain_discomfort": "No",
+    "medical_conditions": "No",
+    "personal_best_times": "50m freestyle: 25.81\n100m freestyle: 58.33\n50m breaststroke: 32.54\n100m breaststroke 1:13.64",
+    "personal_best_times_date": "06/25",
+    "stroke_rate_spm": null,
+    "used_wearable_sensors": true,
+    "wearable_sensor_types": [
+      "Activity Trackers"
+    ],
+    "sensor_comfort_rating": {
+      "raw": "5.0",
+      "parsed": 5.0
+    },
+    "prior_video_analysis_participation": false
+  }
 }

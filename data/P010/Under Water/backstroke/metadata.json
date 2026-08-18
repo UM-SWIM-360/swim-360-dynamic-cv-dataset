@@ -110,5 +110,65 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "60-64",
+    "survey_timestamp": "2025-07-24T16:30:34.008000",
+    "date_of_birth": "1961-12-13T00:00:00",
+    "gender": "Female",
+    "height_cm": 175.0,
+    "weight_kg": 62.5,
+    "arm_span_cm": 154.0,
+    "shoulder_width_cm": 38.0,
+    "hand_size_cm": 18.0,
+    "foot_size_cm": 25.5,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "4-6 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "freestyle",
+    "secondary_strokes": [
+      "breaststroke"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)",
+      "Middle Distance (200/400m)",
+      "Open Water"
+    ],
+    "hours_per_week": {
+      "raw": "4 to 5",
+      "parsed": null
+    },
+    "sessions_per_week": {
+      "raw": "4",
+      "parsed": 4.0
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Strength Training",
+      "Core Stability",
+      "Cardio Training"
+    ],
+    "coach_duration": "5 years",
+    "used_technique_analysis_tools": true,
+    "technique_analysis_tools_used": "Go Pro",
+    "has_injury_history": true,
+    "injury_areas": [
+      "Shoulder",
+      "Hip",
+      "Neck"
+    ],
+    "current_pain_discomfort": "Yes",
+    "medical_conditions": "No",
+    "personal_best_times": "41.90m /50m free style 59.90/50m Breast stroke",
+    "personal_best_times_date": "Feb 2025",
+    "stroke_rate_spm": "28",
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "1.0",
+      "parsed": 1.0
+    },
+    "prior_video_analysis_participation": true
+  }
 }

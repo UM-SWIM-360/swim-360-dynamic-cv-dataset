@@ -118,5 +118,61 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "15-19",
+    "survey_timestamp": "2025-07-04T11:35:46.013000",
+    "date_of_birth": "2010-01-21T00:00:00",
+    "gender": "Female",
+    "height_cm": 160.0,
+    "weight_kg": 52.0,
+    "arm_span_cm": 164.0,
+    "shoulder_width_cm": 105.0,
+    "hand_size_cm": 16.0,
+    "foot_size_cm": 23.0,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "More than 6 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "butterfly",
+    "secondary_strokes": [
+      "freestyle"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)",
+      "Middle Distance (200/400m)"
+    ],
+    "hours_per_week": {
+      "raw": "8",
+      "parsed": 8.0
+    },
+    "sessions_per_week": {
+      "raw": "7",
+      "parsed": 7.0
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Strength Training",
+      "Core Stability"
+    ],
+    "coach_duration": "9 years",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": false,
+    "injury_areas": [
+      "No injuries"
+    ],
+    "current_pain_discomfort": "No",
+    "medical_conditions": "No",
+    "personal_best_times": "50 butterfly: 31.87\n100 butterfly: 1.09.9\n200 butterfly: 2.45.9\n100 freestyle: 1.04.2",
+    "personal_best_times_date": "50 butterfly: April 2025, 100 butterfly: June 2025, 200 butterfly: December 2023, 100 freestyle: April 2025",
+    "stroke_rate_spm": null,
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "2.0",
+      "parsed": 2.0
+    },
+    "prior_video_analysis_participation": false
+  }
 }

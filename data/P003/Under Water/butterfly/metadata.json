@@ -110,5 +110,64 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "15-19",
+    "survey_timestamp": "2025-05-07T09:31:21.145000",
+    "date_of_birth": "2009-07-19T00:00:00",
+    "gender": "Male",
+    "height_cm": 160.0,
+    "weight_kg": 59.0,
+    "arm_span_cm": 23.0,
+    "shoulder_width_cm": 45.0,
+    "hand_size_cm": 17.5,
+    "foot_size_cm": 25.0,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "More than 6 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "butterfly",
+    "secondary_strokes": [
+      "freestyle",
+      "backstroke"
+    ],
+    "competition_distances": [
+      "Middle Distance (200/400m)",
+      "Distance (800/1500m)"
+    ],
+    "hours_per_week": {
+      "raw": "16",
+      "parsed": 16.0
+    },
+    "sessions_per_week": {
+      "raw": "10",
+      "parsed": 10.0
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Strength Training",
+      "Flexibility/Mobility Work",
+      "Core Stability",
+      "Cardio Training"
+    ],
+    "coach_duration": "6 months",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": true,
+    "injury_areas": [
+      "Shoulder"
+    ],
+    "current_pain_discomfort": "Maybe",
+    "medical_conditions": "No",
+    "personal_best_times": "100m butterfly : 1.01.13 , 200 free : 2.03.95 , 400 free : 4.24.19",
+    "personal_best_times_date": "April 2025",
+    "stroke_rate_spm": null,
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "3.0",
+      "parsed": 3.0
+    },
+    "prior_video_analysis_participation": false
+  }
 }

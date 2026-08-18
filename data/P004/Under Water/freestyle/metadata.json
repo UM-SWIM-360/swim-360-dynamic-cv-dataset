@@ -110,5 +110,58 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "30-34",
+    "survey_timestamp": "2025-07-16T14:33:39.254000",
+    "date_of_birth": "1995-06-28T00:00:00",
+    "gender": "Female",
+    "height_cm": 173.0,
+    "weight_kg": 66.0,
+    "arm_span_cm": 174.0,
+    "shoulder_width_cm": 42.0,
+    "hand_size_cm": 18.0,
+    "foot_size_cm": 26.5,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "1-3 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "freestyle",
+    "secondary_strokes": [
+      "breaststroke"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)"
+    ],
+    "hours_per_week": {
+      "raw": "6",
+      "parsed": 6.0
+    },
+    "sessions_per_week": {
+      "raw": "6",
+      "parsed": 6.0
+    },
+    "structured_training_program": true,
+    "dryland_training": false,
+    "dryland_training_types": [
+      "Pilates/Yoga",
+      "1 time Yoga bi weekly for mobility"
+    ],
+    "coach_duration": "2 years",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": false,
+    "injury_areas": [],
+    "current_pain_discomfort": "No",
+    "medical_conditions": "No",
+    "personal_best_times": "50m freestyle short course 31.93",
+    "personal_best_times_date": "2nd November 2024",
+    "stroke_rate_spm": null,
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "4.0",
+      "parsed": 4.0
+    },
+    "prior_video_analysis_participation": false
+  }
 }

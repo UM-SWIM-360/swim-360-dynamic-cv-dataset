@@ -110,5 +110,62 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "20-24",
+    "survey_timestamp": "2025-07-04T12:41:46.943000",
+    "date_of_birth": "2003-11-12T00:00:00",
+    "gender": "Male",
+    "height_cm": 182.0,
+    "weight_kg": 63.0,
+    "arm_span_cm": 181.0,
+    "shoulder_width_cm": 47.0,
+    "hand_size_cm": 20.0,
+    "foot_size_cm": 27.0,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "More than 6 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "breaststroke",
+    "secondary_strokes": [
+      "freestyle"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)",
+      "Middle Distance (200/400m)"
+    ],
+    "hours_per_week": {
+      "raw": "8",
+      "parsed": 8.0
+    },
+    "sessions_per_week": {
+      "raw": "7",
+      "parsed": 7.0
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Strength Training",
+      "Core Stability",
+      "Cardio Training"
+    ],
+    "coach_duration": "5 yrs",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": true,
+    "injury_areas": [
+      "Adductor"
+    ],
+    "current_pain_discomfort": "No",
+    "medical_conditions": "No",
+    "personal_best_times": "50 Breast: 31.86, 100 Breast: 1:10.55, 200 Breast: 2:37.37",
+    "personal_best_times_date": "06/2025",
+    "stroke_rate_spm": null,
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "3.0",
+      "parsed": 3.0
+    },
+    "prior_video_analysis_participation": false
+  }
 }

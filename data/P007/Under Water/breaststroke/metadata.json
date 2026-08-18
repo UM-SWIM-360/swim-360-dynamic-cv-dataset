@@ -110,5 +110,62 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "10-14",
+    "survey_timestamp": "2025-06-19T13:57:35.428000",
+    "date_of_birth": "2012-05-02T00:00:00",
+    "gender": "Female",
+    "height_cm": 163.0,
+    "weight_kg": 54.0,
+    "arm_span_cm": 161.0,
+    "shoulder_width_cm": 36.0,
+    "hand_size_cm": 17.4,
+    "foot_size_cm": 23.5,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "1-3 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "breaststroke",
+    "secondary_strokes": [
+      "freestyle",
+      "individual_medley"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)"
+    ],
+    "hours_per_week": {
+      "raw": "14",
+      "parsed": 14.0
+    },
+    "sessions_per_week": {
+      "raw": "8",
+      "parsed": 8.0
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Strength Training",
+      "Flexibility/Mobility Work",
+      "Core Stability"
+    ],
+    "coach_duration": "10 months",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": true,
+    "injury_areas": [
+      "Elbow"
+    ],
+    "current_pain_discomfort": "No",
+    "medical_conditions": "No",
+    "personal_best_times": "36.81 (50Breast Shortcourse) 1:23.18 (100Breast shortcourse) 3:01 (200 Breast Longcourse)",
+    "personal_best_times_date": "50 - 6M ago, 100 - 1M ago, 200 -2M ago",
+    "stroke_rate_spm": null,
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "2.0",
+      "parsed": 2.0
+    },
+    "prior_video_analysis_participation": true
+  }
 }

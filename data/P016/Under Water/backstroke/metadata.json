@@ -118,5 +118,59 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "20-24",
+    "survey_timestamp": "2025-07-07T11:21:15.884000",
+    "date_of_birth": "2004-06-24T00:00:00",
+    "gender": "Male",
+    "height_cm": 175.0,
+    "weight_kg": 60.0,
+    "arm_span_cm": 177.0,
+    "shoulder_width_cm": 42.0,
+    "hand_size_cm": 19.0,
+    "foot_size_cm": 25.0,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "More than 6 years",
+    "competitive_level": "stopped swimming 3 years ago but swam competitively for 8 years",
+    "primary_stroke": "backstroke",
+    "secondary_strokes": [
+      "freestyle"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)",
+      "Middle Distance (200/400m)"
+    ],
+    "hours_per_week": {
+      "raw": "now 0 hours before 16 hours",
+      "parsed": null
+    },
+    "sessions_per_week": {
+      "raw": "now 0 before 11 sessions",
+      "parsed": null
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Cardio Training",
+      "Running"
+    ],
+    "coach_duration": "1.5 years",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": false,
+    "injury_areas": [],
+    "current_pain_discomfort": "No",
+    "medical_conditions": "No",
+    "personal_best_times": "50 free- 27seconds, 50 back- 30 seconds, 100 free- 58 seconds, 100 back- 1.08.28, 200 back- 2.27.18",
+    "personal_best_times_date": "2022",
+    "stroke_rate_spm": "14-16 normal pace in backstroke",
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "5.0",
+      "parsed": 5.0
+    },
+    "prior_video_analysis_participation": false
+  }
 }

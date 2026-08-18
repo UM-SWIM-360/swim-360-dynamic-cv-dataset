@@ -110,5 +110,63 @@
       "keypoints": [],
       "skeleton": []
     }
-  ]
+  ],
+  "participant": {
+    "age": "10-14",
+    "survey_timestamp": "2025-06-19T13:48:12.633000",
+    "date_of_birth": "2013-12-20T00:00:00",
+    "gender": "Prefer not to say",
+    "height_cm": 148.0,
+    "weight_kg": 38.0,
+    "arm_span_cm": 137.0,
+    "shoulder_width_cm": 29.0,
+    "hand_size_cm": 17.5,
+    "foot_size_cm": 24.8,
+    "shoulder_to_foot_height_cm": null,
+    "years_swimming": "1-3 years",
+    "competitive_level": "Advanced",
+    "primary_stroke": "individual_medley",
+    "secondary_strokes": [
+      "butterfly"
+    ],
+    "competition_distances": [
+      "Sprint (50/100m)"
+    ],
+    "hours_per_week": {
+      "raw": "15",
+      "parsed": 15.0
+    },
+    "sessions_per_week": {
+      "raw": "12",
+      "parsed": 12.0
+    },
+    "structured_training_program": true,
+    "dryland_training": true,
+    "dryland_training_types": [
+      "Strength Training",
+      "Flexibility/Mobility Work",
+      "Core Stability",
+      "Cardio Training"
+    ],
+    "coach_duration": "Less than a year",
+    "used_technique_analysis_tools": false,
+    "technique_analysis_tools_used": null,
+    "has_injury_history": true,
+    "injury_areas": [
+      "Shoulder",
+      "Knee"
+    ],
+    "current_pain_discomfort": "No",
+    "medical_conditions": "Yes",
+    "personal_best_times": "100im 1:18 200im 2:48 50free 29",
+    "personal_best_times_date": "around a month",
+    "stroke_rate_spm": null,
+    "used_wearable_sensors": false,
+    "wearable_sensor_types": [],
+    "sensor_comfort_rating": {
+      "raw": "3.0",
+      "parsed": 3.0
+    },
+    "prior_video_analysis_participation": false
+  }
 }
