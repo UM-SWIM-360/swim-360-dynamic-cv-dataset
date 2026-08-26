@@ -144,10 +144,6 @@ python generate_split_config.py --registry_root . --output dataset_config.yaml \
 `--force` is required since `dataset_config.yaml` already exists — this
 overwrites it with a freshly-computed (still participant-disjoint) split.
 
-# Static Dataset — Metrics Summary
-
-**Total frames:** 3,903 | **Total annotations:** 3,757 | **Image resolution:** 3840×2160 (100% of frames, all UHD) ([Hugging Face](https://huggingface.co/datasets/UM-SWIM-360/swim360-static-cv-dataset))
-
 ---
 # Dynamic Dataset — Metrics Summary
 
