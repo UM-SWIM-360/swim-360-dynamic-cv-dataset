@@ -107,7 +107,7 @@ $env:HF_HUB_DOWNLOAD_TIMEOUT = "60"
 - **Swimmer ID**: `P<number>` (e.g. `P007`)
 - **Camera angle**: `Above Water` / `Under Water`
 - **Stroke**: `freestyle`, `backstroke`, `breaststroke`, `butterfly`
-- **Swim Segment**: `START`, `SWIM1`, `TURN`, `SWIM2`,`FINISH`
+- **Swim Segment**: `START`, `SWIM1`, `TURN`, `SWIM2`,`FINISH` (Only SWIM1, SWIM2 and TURN are in this dataset)
 - **Keypoints**: standard COCO-17 layout (nose, eyes, ears, shoulders,
   elbows, wrists, hips, knees, ankles)
 
@@ -230,7 +230,7 @@ Percentages are the share of all 18,465 annotations where the keypoint is confid
 ![alt text](https://github.com/UM-SWIM-360/swim-360-dynamic-cv-dataset/blob/main/assets/images/distributions/keypoint_visibility.png?raw=true)
 
 **Notes:**
-- **Facial keypoints (eyes, ears) remain the least visible**, same as in the static dataset — left ear visible in only 8.7% of annotations, right ear 12.6%.
+- **Facial keypoints (eyes, ears) remain the least visible**, same as in the [static dataset](https://github.com/UM-SWIM-360/swim-360-static-cv-dataset/tree/main) — left ear visible in only 8.7% of annotations, right ear 12.6%.
 - **Lower body (hips/knees/ankles) is again far more visible than upper body**, consistent with the static dataset's pattern (57–76% vs. well under 60% for everything above the hips).
 - **The left/right asymmetry doesn't hold in one consistent direction across all joints.** Ears, eyes, knees, and ankles are all more visible on the right side (matching the static dataset's pattern), but shoulders, elbows, and wrists are all more visible on the **left** side here — the opposite of static. Worth checking rather than assuming the same camera-side bias explanation carries over.
 
@@ -244,10 +244,6 @@ Percentages are the share of all 18,465 annotations where the keypoint is confid
 
 ## 9. Participant × Camera × Stroke × Phase Coverage Gaps
 
-Of 276 possible (swimmer × camera × stroke × phase) combinations, **46 are covered and 230 are gaps (83.3%)**.
+Of the 30 swimmers in the SWIM-360 participant pool, **23** are represented in the dynamic dataset. Coverage is also narrower on two other axes: only **one camera view** (Under Water) was captured, and only **3 of the 5** defined swim-segment phases are included — START and FINISH weren't annotated due to time constraints, leaving SWIM1, SWIM2, and TURN. All **4 strokes** (backstroke, breaststroke, butterfly, freestyle) are represented.
 
-Because this dataset has only one camera view (Under Water), camera view isn't a confound here the way it was for the static dataset — the gaps are entirely across swimmer × stroke × phase.
-
-A few swimmers appear responsible for a disproportionate share of the gaps: **P002, P003, and P004** show zero frames across nearly every stroke/phase combination in the gap list, which tracks with their low total frame counts (326, 372, and 123 frames respectively — among the lowest of the 23 swimmers). **P011** (109 frames, the lowest of any swimmer) likely contributes heavily too, though it doesn't appear in the specific gap entries printed.
-
-The full gap list (230 entries) wasn't fully enumerated in the metrics output used here — only a partial sample was shown before truncating ("...and 200 more") — so treat the above as a coverage-rate summary rather than a complete per-swimmer gap pattern. A full breakdown would need the untruncated 230-entry list.
+Even within that narrower scope, coverage is incomplete: of the 276 possible (swimmer × camera × stroke × phase) combinations, **46 are covered and 230 are gaps (83.3%)**.
