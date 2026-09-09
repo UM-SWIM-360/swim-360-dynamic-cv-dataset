@@ -4,6 +4,8 @@ COCO-17 keypoint annotations for swimmer pose estimation, captured from a
 dynamic lane camera setup (phased swim, non-segmented strokes), below
 water **ONLY**.
 
+![alt text](https://github.com/UM-SWIM-360/swim-360-dynamic-cv-dataset/blob/main/assets/images/output_1.png?raw=true)
+
 ## This is a two-part dataset:
 
 | | Contains | Where |
