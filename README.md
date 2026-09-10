@@ -249,3 +249,17 @@ Percentages are the share of all 18,465 annotations where the keypoint is confid
 Of the 30 swimmers in the SWIM-360 participant pool, **23** are represented in the dynamic dataset. Coverage is also narrower on two other axes: only **one camera view** (Under Water) was captured, and only **3 of the 5** defined swim-segment phases are included — START and FINISH weren't annotated due to time constraints, leaving SWIM1, SWIM2, and TURN. All **4 strokes** (backstroke, breaststroke, butterfly, freestyle) are represented.
 
 Even within that narrower scope, coverage is incomplete: of the 276 possible (swimmer × camera × stroke × phase) combinations, **46 are covered and 230 are gaps (83.3%)**.
+
+## Citation 
+If you use this dataset, please cite it as follows:
+
+```bibtex
+@misc{camilleri2026swim360,
+  author       = {Camilleri, Vanessa and Bartolo, Matthias and Camilleri, Reno Yuri and Azzopardi, Liam and Pace, Daniel and Fialovszky, Mark},
+  title        = {{SWIM-360 Dynamic CV Dataset}},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/UM-SWIM-360/swim-360-dynamic-cv-dataset}},
+  note         = {Accessed: 2026-09-10}
+}
+```
