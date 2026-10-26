@@ -1,4 +1,4 @@
-# SWIM-360 Dynamic Camera Setup Computer Vision Swimmer Pose Estimation Dataset
+# SWIM-360 Pose: Dynamic Camera Setup Computer Vision Swimmer Pose Estimation Dataset
 
 COCO-17 keypoint annotations for swimmer pose estimation, captured from a
 dynamic lane camera setup (phased swim, non-segmented strokes), below
